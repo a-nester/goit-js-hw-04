@@ -6,8 +6,8 @@
 
 function calcAverageCalories(days) {
     let totalCalories = 0;
-    // if array of objects is not empty
-    if(Number(days) !== 0) {
+    // if array of objects is not empty 
+    if(Number(days) !== 0) {                 // if(days.length !== 0) {  // another check's variant
     for(const day of days) {
         totalCalories += day.calories;    
     }
